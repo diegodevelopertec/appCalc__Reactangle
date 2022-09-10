@@ -6,7 +6,7 @@ export const Header=()=>{
     return <>
     <S.container>
         <div className="title-app">
-            calculador de Dados de Rentagulo
+            Calculador de Dados de Rentagulo
         </div>
         <div className="git">
              <a href="https://github.com/diegodevelopertec?tab=repositories">Desenvolveidor por Diego Morais</a>  {gitIcon}

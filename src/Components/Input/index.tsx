@@ -1,12 +1,15 @@
+import { ChangeEvent } from 'react'
 import './style.css'
 type Props={
-   placeholder:string
+   placeholder:string,
+   value:string | number | any,
+   onChange:(e:ChangeEvent<HTMLInputElement>)=>void
 }
 
-export const Input=({placeholder}:Props)=>{
+export const Input=({placeholder,value,onChange}:Props)=>{
 
     return <>
-      <input type="text" placeholder={placeholder}/>
+      <input type="number" placeholder={placeholder} value={value} onChange={onChange}/>
     </>
 
 

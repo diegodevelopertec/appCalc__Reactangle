@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import styled from "styled-components";
 
 
@@ -19,7 +20,7 @@ export const ContainerApp=styled.div`
 margin-top: 50px;
 padding: 20px;
 width: 600px;
-height: 400px;
+max-height: 400px;
 background-color: #15122e;
 box-shadow: 0 0 10px #eee;
 border-radius: 15px;
@@ -58,11 +59,21 @@ button{
     width: 90%;
     padding: 12px;
     background-color: green;
+
+    &:hover{
+        background-color: #0d9140;
+        box-shadow: 5px 5px #136332;
+    }
 }
 .btn-reset{
     padding: 12px;
     flex:1;
     box-shadow: 5px 5px #dedfe3;
+
+    &:hover{
+        background-color: #2b2ead;
+        box-shadow: 5px 5px #191b80;
+    }
 }
 
 `
@@ -79,8 +90,18 @@ min-height: 100px;
 border-radius: 15px;
 font-size:18px;
 align-items: center;
+margin-bottom: 30px;
 
-div{
-    margin-top: 10px;
-}
+`
+
+
+
+export const ErrorMensage=styled.div`
+background-color: red;
+margin-top: 13px;
+margin-bottom: 13px;
+border-radius: 12px;
+padding: 10px;
+color: #a3364e;
+text-align: center;
 `
