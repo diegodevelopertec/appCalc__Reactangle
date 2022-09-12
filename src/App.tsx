@@ -72,10 +72,12 @@ const actionsButtons={
 const actionsInputs={
 
     valueBase:(e:ChangeEvent<HTMLInputElement>)=>{
-        setBaseRectangle(e.target.value)   
+        setBaseRectangle(e.target.value)  
+        setDisplayResult(false) 
      },
      valueWeight:(e:ChangeEvent<HTMLInputElement>)=>{
         setWeightRectangle(e.target.value)
+        setDisplayResult(false)
      }
 
 
@@ -85,8 +87,9 @@ const actionsInputs={
 
 
     return <>
+
     <S.Container>
-        <Header />
+    <Header />
         <S.ContainerApp>
         
          <S.ContainerInputs>

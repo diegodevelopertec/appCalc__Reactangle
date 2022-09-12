@@ -18,6 +18,7 @@ align-items: center;
 
 export const ContainerApp=styled.div`
 margin-top: 50px;
+margin-bottom: 18px;
 padding: 20px;
 width: 600px;
 max-height: 400px;
@@ -102,6 +103,6 @@ margin-top: 13px;
 margin-bottom: 13px;
 border-radius: 12px;
 padding: 10px;
-color: #a3364e;
+color:#91111e;
 text-align: center;
 `
