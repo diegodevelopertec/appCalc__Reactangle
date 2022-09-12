@@ -13,7 +13,7 @@ width: 100vw;
 color:  #15122e;
 font-size: 25px;
 @media screen and (max-width:430px) {
-   font-size: 16px;
+   font-size: 18px;
    text-align: center;
    margin-top: 15px;
  }
@@ -35,6 +35,7 @@ box-shadow: 0 0 10px #5a0366;
         img{
             height: 30px;
             width: 30px;
+            margin-left: 10px;
         }
 
 
